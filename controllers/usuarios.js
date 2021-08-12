@@ -2,7 +2,6 @@ const {request, response} = require('express');
 const bcryptjs = require('bcryptjs');
 
 const Usuario = require('../models/usuario');
-const { existeUsuarioPorId } = require('../helpers/db-validators');
 
 const usuariosGet = async(req = request, res = response) => {
 
